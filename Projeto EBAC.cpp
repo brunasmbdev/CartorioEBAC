@@ -123,6 +123,7 @@ int main()
         printf("\t1 - Registrar nomes\n");
         printf("\t2 - Consultar nomes\n");
         printf("\t3 - Excluir nomes\n\n");
+        printf("\t4 - Sair do sistema\n\n");
         printf("Esse software é exclusivo para alunos\n");
         printf("opção: "); // Fim do menu
 
@@ -143,6 +144,11 @@ int main()
 
             case 3:
             Excluir();
+            break;
+
+            case 4:
+            printf("Obrigada por utilizar o sistema!\n");
+            return 0;
             break;
 
             default:
